@@ -12,13 +12,13 @@
     "@svgr/webpack": "^8.1.0",
     "framer-motion": "^11.3.21",
     "next": "14.2.5",
-    "react": "^18",
+    "react": "^18.3.1",
     "react-dom": "^18",
     "tailwind-merge": "^2.4.0"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/react": "^18.3.18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.20",
     "eslint": "^8",
