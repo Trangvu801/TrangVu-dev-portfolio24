@@ -2,6 +2,12 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 
 export const ContactSection = () => {
+  const ContactLinks = [
+    {
+      title: 'Contact Me',
+      href: `mailto:vuthutrang801@gmail.com?subject=Let's Connect&body=Hi, I would like to connect with you!`,
+    },
+  ]
   return (
     <div className="py-16 pt-12 lg:py-24 lg:pt-20">
       <div className="container">
@@ -22,10 +28,16 @@ export const ContactSection = () => {
               </p>
             </div>
             <div>
-              <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
-                <span className="font-semibold"> Contact Me </span>
-                <ArrowUpRightIcon className="size-4" />
-              </button>
+              {ContactLinks.map((link, index) => (
+                <a
+                  key={index}
+                  href={link.href}
+                  className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900"
+                >
+                  <span className="font-semibold">{link.title}</span>
+                  <ArrowUpRightIcon className="size-4" />
+                </a>
+              ))}
             </div>
           </div>
         </div>

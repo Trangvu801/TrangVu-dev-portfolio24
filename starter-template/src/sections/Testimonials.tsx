@@ -11,14 +11,14 @@ import { Fragment } from "react";
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
+    name: "Patrick Oh",
+    position: "Music Technician @ Dickinson College",
     text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
     avatar: memojiAvatar1,
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
+    name: "Lindsey Lyons",
+    position: "Center Directior @ CSE",
     text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
     avatar: memojiAvatar2,
   },
@@ -35,7 +35,7 @@ const testimonials = [
     avatar: memojiAvatar4,
   },
   {
-    name: "Michael Brown",
+    name: "Alice Nguyen",
     position: "Director of IT @ MegaCorp",
     text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
     avatar: memojiAvatar5,

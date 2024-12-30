@@ -1,6 +1,7 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import cyoBotLandingPage from "@/assets/images/cyobot-landingpage.png";
+import dpoolLandingPage from "@/assets/images/dpool-landing-page.png";
+import DsonMarketLandingPage from "@/assets/images/DsonMarket-landing-page.png";
+import MermaidJSLandingPage from "@/assets/images/MermaidJS-landing-page.png";
 import Image from 'next/image';
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -10,40 +11,52 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "CYOBot",
+    year: "2024",
+    title: "CYOBot DashBoard",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Led a cross-functional team of 10 to deliver over 45 features in 3 months" },
+      { title: "Developed dashboard serving 2,000 users, increased sales by 120%." },
+      { title: "Increasing team productivity by 45% through Agile methodologies." },
     ],
     link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    image: cyoBotLandingPage,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Dickinson College",
+    year: "2024",
+    title: "D-Pool CarSharing",
     results: [
       { title: "Boosted sales by 20%" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
     link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    image: dpoolLandingPage,
   },
   {
-    company: "Quantum Dynamics",
+    company: "Dickinson College",
     year: "2023",
-    title: "AI Startup Landing Page",
+    title: "DsonMarket",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    image: DsonMarketLandingPage,
+  },
+  {
+    company: "Mermaid",
+    year: "2023",
+    title: "MermaidJS",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://youtu.be/Z7I5uSRHMHg",
+    image: MermaidJSLandingPage,
   },
 ];
 
