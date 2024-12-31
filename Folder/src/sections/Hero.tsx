@@ -18,7 +18,7 @@ export const HeroSection = () => {
         <div className='size-[820px] hero-ring'></div>
         <div className='size-[1020px] hero-ring'></div>
         <div className='size-[1220px] hero-ring'></div>
-        
+
         <HeroOrbit size={430} rotation={-14} shouldOrbit orbitDuration='30s' shouldSpin spinDuration='3s'>
           <SparkleIcon className='size-8 text-emerald-300/20' />
         </HeroOrbit>
@@ -65,8 +65,9 @@ export const HeroSection = () => {
         <div className='max-w-lg mx-auto'>
           <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Building Exceptional User Experiences</h1>
           <p className='mt-4 text-center text-white/60 md:text-lg'>
-            Hi I'm Trang Vu, a Front-End Developer and Technical Project Manager based in Pennsylvania, USA.
+            Hi I&apos;m Trang Vu, a Front-End Developer and Technical Project Manager based in Pennsylvania, USA.
           </p>
+
         </div>
         <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
           <button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>
