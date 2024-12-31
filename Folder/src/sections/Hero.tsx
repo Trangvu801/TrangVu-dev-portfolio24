@@ -65,7 +65,7 @@ export const HeroSection = () => {
         <div className='max-w-lg mx-auto'>
           <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Building Exceptional User Experiences</h1>
           <p className='mt-4 text-center text-white/60 md:text-lg'>
-            Hi I&apos;m Trang Vu, a Front-End Developer and Technical Project Manager based in Pennsylvania, USA.
+            Hi I am Trang Vu, a Front-End Developer and Technical Project Manager based in Pennsylvania, USA.
           </p>
 
         </div>
