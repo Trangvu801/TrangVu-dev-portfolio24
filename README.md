@@ -29,13 +29,16 @@ Welcome to my portfolio website repository! This project showcases the power of 
 Here are some screenshots from the project:
 
 ### Home Page
-![Home Page](./images/home-page.png)
+![Home Page](Folder/src/assets/images/home-page.png)
 
 ### Projects Section
-![Projects Section](./images/projects-section.png)
+![Projects Section](Folder/src/assets/images/projects-section.png)
+
+### Testimonial Section
+![Testimonial Section](Folder/src/assets/images/testominal-page.png)
 
 ### About Me Section
-![About Me Section](./images/about-me.png)
+![About Me Section](Folder/src/assets/images/about-me.png)
 
 ---
 
