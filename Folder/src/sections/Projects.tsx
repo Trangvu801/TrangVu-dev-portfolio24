@@ -27,9 +27,8 @@ const portfolioProjects = [
     year: "2024",
     title: "D-Pool CarSharing",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Developed a secure and exclusive online marketplace for 3,000 users." },
+      { title: "Reduced 20% of waste at the end of the semester 2020." },
     ],
     link: "https://youtu.be/7hi5zwO75yc",
     image: dpoolLandingPage,
@@ -39,9 +38,8 @@ const portfolioProjects = [
     year: "2023",
     title: "DsonMarket",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Developed a secure and exclusive online marketplace for 3,000 users." },
+      { title: "Implemented an intuitive registration and user verification system, enhancing platform security and community trust, and facilitated user profile customization for increased personalization and interaction." },
     ],
     link: "https://youtu.be/Z7I5uSRHMHg",
     image: DsonMarketLandingPage,
